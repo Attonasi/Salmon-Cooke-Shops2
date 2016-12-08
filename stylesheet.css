@@ -1,0 +1,53 @@
+* {
+  color: black;
+  background-color: #81DAF5;
+}
+
+th {
+  border: 2px solid black;
+  text-align: center;
+  background: grey;
+  margin: 0%, 0%, 0%, 0%;
+}
+td {
+  border: 1px solid black;
+  text-align: center;
+  margin: 0px, 0px, 0px, 0px;
+  background-color: #F5BCA9;
+
+}
+table{
+  border: 2px black solid;
+  background-color: #E6E6E6;
+  padding: 0px 0px 0px 0px color:#F5BCA9;
+
+}
+
+#logo{
+  background-color: #81DAF5;
+  width: auto;
+
+}
+
+fieldset {
+border: 2px #F5BCA9 solid;
+width: auto;
+
+}
+
+input {
+  text-align: left;
+  font-size: 9px;
+}
+label {
+  font-size: 14px;
+}
+
+.resizedNumberBox {
+  width: 40px;
+}
+
+.salmon-fieldset{
+  display: inline-block;
+  padding: 1px;
+}
