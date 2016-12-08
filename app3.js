@@ -16,6 +16,9 @@ function doThings(event){
     return alert('You must fill out all fields!');
   }
 
+  if(event.target.minCustomersPerHour.value>event.target.maxCustomersPerHour.value){
+    return alert('Maximum customers must be greater than minimum customers.')
+  }
   var storeName = event.target.storeName.value;
   var minCustomersPerHour = (event.target.minCustomersPerHour.value);
   var maxCustomersPerHour = (event.target.maxCustomersPerHour.value);
@@ -23,7 +26,7 @@ function doThings(event){
 
   console.log('storeName '+storeName, 'maxCustomersPerHour '+maxCustomersPerHour, 'minCustomersPerHour '+ minCustomersPerHour, averageCookiesPerCustomer);
 
-  new MakeShop(storeName, maxCustomersPerHour, minCustomersPerHour, averageCookiesPerCustomer);
+  new MakeShop(storeName, minCustomersPerHour, maxCustomersPerHour, averageCookiesPerCustomer);
 
   rewriteTable();
 
@@ -63,7 +66,7 @@ function MakeShop(nameOfShop, minCustomersPerHour, maxCustomersPerHour, averageC
   this.averageCookiesPerCustomer = averageCookiesPerCustomer;
 
   this.randCustomersPerHour = function (){
-    return Math.floor(Math.random()*(this.maxCustomersPerHour-this.minCustomersPerHour+1)+this.minCustomersPerHour);
+    return Math.floor(Math.random()*(this.maxCustomersPerHour-this.minCustomersPerHour+2)+this.minCustomersPerHour);
   }
 
   this.fillCookiesSoldEachHour = function (){

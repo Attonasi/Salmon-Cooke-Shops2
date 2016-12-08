@@ -1,12 +1,12 @@
 * {
   color: black;
-  background-color: #81DAF5;
+  background-color: #cfde4d;
 }
 
 th {
   border: 2px solid black;
   text-align: center;
-  background: grey;
+  background-color: grey;
   margin: 0%, 0%, 0%, 0%;
 }
 td {
@@ -14,18 +14,26 @@ td {
   text-align: center;
   margin: 0px, 0px, 0px, 0px;
   background-color: #F5BCA9;
-
 }
+div {
+  border: 1px black solid;
+  opacity: .9;
+}
+form {
+  background-color: #F5BCA9;
+  width: auto;
+}
+
 table{
   border: 2px black solid;
   background-color: #E6E6E6;
-  padding: 0px 0px 0px 0px color:#F5BCA9;
+  padding: 0px 0px 0px 0px;
 
 }
 
-#logo{
+.logo{
   background-color: #81DAF5;
-  width: auto;
+  width: 300px;
 
 }
 
@@ -50,4 +58,38 @@ label {
 .salmon-fieldset{
   display: inline-block;
   padding: 1px;
+}
+
+.indexChinook{
+background-color: #F5BCA9;
+
+}
+.linkBar li {
+  display: inline-block;
+  margin-right: 40px;
+}
+
+.linkBar {
+  /*font-color: white;*/
+  /*background-color: black;*/
+  font-size: 15px;
+}
+.merchandise {
+  width: 100px;
+}
+2div img {
+  display: inline-block;
+  display:
+}
+.cookie {
+  width: 30px;
+}
+.fightingFish {
+  text-align: left;
+  margin-top: 0;
+}
+
+1div a {
+  display: inline-block;
+  margin-right: 100px;
 }
