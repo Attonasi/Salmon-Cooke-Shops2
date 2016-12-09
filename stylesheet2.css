@@ -1,0 +1,27 @@
+* {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+}
+
+div {
+  border: black solid 5px;
+  color: black;
+}
+
+aside {
+  border: red solid 5px;
+  height: 200px;
+  width: 100px;
+  position: fixed right;
+}
+
+footer {
+  border: green solid 5px;
+}
+
+.div1 {
+  border: black solid 10px;
+  width: 400px;
+  height: 200px;
+
+}
