@@ -1,6 +1,7 @@
 * {
   color: black;
   background-color: #cfde4d;
+  font-family: 'Roboto', sans-serif;
 }
 
 th {
@@ -92,4 +93,10 @@ background-color: #F5BCA9;
 1div a {
   display: inline-block;
   margin-right: 100px;
+}
+
+.2div {
+  width: 600px;
+  border: 3px solid red;
+
 }
